@@ -6,14 +6,14 @@
 
 #homecontainer{
     background-color: transparent;
-    background-image: url("/src/img/copertina.png");
+    background-image: url("/gioco_genere_nomi/src/img/copertina.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 .bodywall{
     background-color: transparent;
-    background-image: url("/src/img/castle.jpg");
+    background-image: url("/gioco_genere_nomi/src/img/castle.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
