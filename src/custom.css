@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Rye);
+@import url('https://fonts.googleapis.com/css?family=Graduate');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+
+#homecontainer{
+    background-color: transparent;
+    background-image: url("/src/img/copertina.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.bodywall{
+    background-color: transparent;
+    background-image: url("/src/img/castle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.pointer{cursor: pointer;}
+@font-face {
+    font-family: obelix;
+    src: url(obelix.ttf);
+  }
+.obelix{
+    font-family: obelix;
+    color: orange;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+}
+@font-face {
+    font-family: fishgrill;
+    src: url(fishgrill.otf);
+  }
+.fishgrill{
+    font-family: fishgrill;
+    color: orange;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 48px;
+}
+.obelixm{
+    font-family: obelix;
+    color: #14ACDE;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+}
+.obelixf{
+    font-family: obelix;
+    color: magenta;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+}
+#clicktoplay{
+    border-radius: 80px;
+}
+#clicktoplay:hover{
+    box-shadow: -5px 0 white, 0 5px white, 5px 0 white, 0 -5px white;
+}
+.renome{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 350px;
+}
+.slider.slider-horizontal{
+    width: 500px !important;
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
+}
+.slider.slider-horizontal .slider-handle {
+    width: 68px;
+    height: 68px;
+    top: -15px;
+}
+.slider.slider-horizontal .slider-track-low,
+.slider.slider-horizontal .slider-track-high {
+    background-color: #14ACDE;
+    border-radius: 15px;
+}
+.slider.slider-horizontal .slider-tick,
+.slider.slider-horizontal .slider-selection {
+    background-color: magenta;
+    border: 4px solid white;
+    background-image: none;
+}
+.slider.slider-horizontal .slider-track{
+    height: 40px !important;
+    border-radius: 15px;
+}
+.slider.slider-horizontal .slider-handle {
+    width: 68px;
+    height: 68px;
+    top: -8px;
+    border: 5px solid white;
+    background-color: orange !important;
+    background-image: none;
+}
+
+.slider.slider-horizontal .slider-selection{
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
+.boxed{
+    border: 5px solid white;
+    padding: 50px 0px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    min-height: 300px;
+}
+/*
+ * Smartphone (Under 991px)
+ */
+ @media (max-width: 991px) {
+    .logo{
+        width: 150px;
+    }
+}
+/*
+ * DESKTOP
+ */
+ @media (min-width: 992px) {
+    .logo{
+        width: 200px;
+    }
+}
+.bouncy{
+    animation:bouncy 5s infinite linear;
+    position:relative;
+    background: rgb(255,116,0); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(255,116,0,1) 0%, rgba(255,116,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(255,116,0,1) 0%,rgba(255,116,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(255,116,0,1) 0%,rgba(255,116,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7400', endColorstr='#ff7400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border: white 5px solid;
+    width: 400px;
+    height: 80px;
+    border-radius: 60px;
+    font-family: obelix;
+    color: white;
+    font-size: 24px;
+    }
+@keyframes bouncy {
+    0%   {top: 0em;}
+    40%  {top: 0em;}
+    43%  {top: -0.9em;}
+    46%  {top: 0em;}
+    48%  {top: -0.4em;}
+    50%  {top: 0em;}
+    100% {top: 0em;}
+}
+.imgultimapagina{
+    width: 300px;
+}
