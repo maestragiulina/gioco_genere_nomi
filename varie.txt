@@ -1,0 +1,5 @@
+.casa .slider.slider-horizontal .slider-tick, .casa .slider.slider-horizontal .slider-handle, .casa .slider.slider-horizontal .slider-selection
+background-color: red;
+    border: 2px solid blue;
+    background-image: none;
+}
