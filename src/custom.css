@@ -106,12 +106,18 @@
     .logo{
         width: 150px;
     }
+    .obelix{
+        font-size: 100px;
+    }
     #homecontainer{
         background-color: transparent;
         background-image: url("/gioco_genere_nomi/src/img/mobile.png");
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
+    }
+    #clicktoplay{
+        height: 250px;
     }
 }
 /*
@@ -127,6 +133,9 @@
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
+    }
+    #clicktoplay{
+        height: 150px;
     }
 }
 .bouncy{
