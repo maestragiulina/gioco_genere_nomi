@@ -122,6 +122,9 @@
     #nomedaindovinare{
         font-size: 70px !important;
     }
+    .renome{
+        width: 500px;
+    }
 }
 /*
  * DESKTOP
@@ -139,6 +142,9 @@
     }
     #clicktoplay{
         height: 150px;
+    }
+    .renome{
+        width: 300px;
     }
 }
 .bouncy{
