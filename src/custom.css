@@ -119,6 +119,9 @@
     .renome{
         width: 500px;
     }
+    .wrap-punteggio{
+        font-size: 40px !important;
+    }
 }
 /*
  * DESKTOP
