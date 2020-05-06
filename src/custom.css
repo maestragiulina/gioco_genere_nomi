@@ -119,6 +119,9 @@
     #clicktoplay{
         height: 250px;
     }
+    #nomedaindovinare{
+        font-size: 70px !important;
+    }
 }
 /*
  * DESKTOP
