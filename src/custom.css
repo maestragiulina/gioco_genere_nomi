@@ -4,13 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 @import url('https://fonts.googleapis.com/css?family=Pangolin');
 
-#homecontainer{
-    background-color: transparent;
-    background-image: url("/gioco_genere_nomi/src/img/copertina.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
+
 .bodywall{
     background-color: transparent;
     background-image: url("/gioco_genere_nomi/src/img/castle.jpg");
@@ -112,6 +106,13 @@
     .logo{
         width: 150px;
     }
+    #homecontainer{
+        background-color: transparent;
+        background-image: url("/gioco_genere_nomi/src/img/mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
 }
 /*
  * DESKTOP
@@ -119,6 +120,13 @@
  @media (min-width: 992px) {
     .logo{
         width: 200px;
+    }
+    #homecontainer{
+        background-color: transparent;
+        background-image: url("/gioco_genere_nomi/src/img/copertina.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
     }
 }
 .bouncy{
