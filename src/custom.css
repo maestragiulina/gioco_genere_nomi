@@ -48,12 +48,6 @@
 #clicktoplay:hover{
     box-shadow: -5px 0 white, 0 5px white, 5px 0 white, 0 -5px white;
 }
-.renome{
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    height: 350px;
-}
 .slider.slider-horizontal{
     width: 500px !important;
     margin-left: 3rem !important;
