@@ -125,6 +125,9 @@
     .scrittapunti{
         font-size: 60px !important;
     }
+    .slider.slider-horizontal{
+        width: 400px !important;
+    }
     
 }
 /*
