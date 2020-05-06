@@ -23,7 +23,7 @@
             document.getElementById("myText").innerHTML = punteggionomi;
             if (punteggionomi < 15) {
                 var linkText =
-                    "<p class='obelix'>Hai ottenuto un punteggio basso: allenati ancora!</p><img id='imgpunti' src='src/img/low.png' class='imgultimapagina' />";
+                    "<p class='obelix scrittapunti'>Hai ottenuto un punteggio basso: allenati ancora!</p><img id='imgpunti' src='src/img/low.png' class='imgultimapagina' />";
                 $('#wrapperpunti').html();
                 $('#wrapperpunti').html(linkText);
                 setTimeout(function () {
@@ -32,7 +32,7 @@
             }
             if ((punteggionomi >= 15 && punteggionomi < 18)) {
                 var linkText =
-                    "<p class='obelix'>Hai ottenuto un buon punteggio, ma puoi fare ancora meglio. Continua ad allenarti!</p><img id='imgpunti' src='src/img/medium.png' class='imgultimapagina' />";
+                    "<p class='obelix scrittapunti'>Hai ottenuto un buon punteggio, ma puoi fare ancora meglio. Continua ad allenarti!</p><img id='imgpunti' src='src/img/medium.png' class='imgultimapagina' />";
                 $('#wrapperpunti').html();
                 $('#wrapperpunti').html(linkText);
                 setTimeout(function () {
@@ -41,7 +41,7 @@
             }
             if (punteggionomi >= 18) {
                 var linkText =
-                    "<p class='obelix'>Hai ottenuto un ottimo risultato: complimenti!</p><img id='imgpunti' src='src/img/high.png' class='imgultimapagina' />";
+                    "<p class='obelix scrittapunti'>Hai ottenuto un ottimo risultato: complimenti!</p><img id='imgpunti' src='src/img/high.png' class='imgultimapagina' />";
                 $('#wrapperpunti').html();
                 $('#wrapperpunti').html(linkText);
             }
