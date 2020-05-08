@@ -90,7 +90,8 @@ function rispostaesatta(){
             var audio = document.getElementById("error");
             audio.play();
         }
-    }  
+    }
+    $('.actualslider').slider('refresh', { useCurrentValue: false });  
 }
 
 
@@ -104,7 +105,7 @@ function rispostaesattafinale(){
     var audio = document.getElementById("glitter");
     console.log(i);
     audio.play();
-    setTimeout(function(){ $(location).attr('href',"finale.html"); }, 2000);
+    $(location).attr('href',"finale.html");
 }
 
 
